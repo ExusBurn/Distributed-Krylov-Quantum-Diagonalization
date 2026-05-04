@@ -18,16 +18,6 @@ Because the Krylov matrices are Toeplitz (due to Trotterized time evolution), on
 
 $$S(k) = \langle\psi_0|U^k|\psi_0\rangle, \quad H(k) = \langle\psi_0|HU^k|\psi_0\rangle$$
 
----
-
-## Repository Structure
-
-```
-.
-├── CUDAQ.cpp          # CUDA-Q implementation (baseline)
-├── linebyline.cu      # Hand-written CUDA/MPI implementation
-├── kqd_openmp.cpp     # Structurally identical OpenMP/MPI CPU port
-```
 
 ---
 
