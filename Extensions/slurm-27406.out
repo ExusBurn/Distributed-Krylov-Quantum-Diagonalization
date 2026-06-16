@@ -1,0 +1,167 @@
+Compilation successful.
+============================================================
+Running for NQ=3...
+CLASSICAL exact KQD   nQ=3  krylov_dim=50  JX=1 JY=1 JZ=1
+  Initial state = Dense Random State    (dim = 8)
+  spectral norm = 4.00000000   dt = 0.78539816
+  True ground-state energy E0 (full spectrum) = -4.00000000
+  Lowest energy reachable from this psi_0    = -4.00000000   (Krylov converges here)
+
+  Krylov convergence (E0 estimate vs full-spectrum ground state):
+  K= 1  E0=-2.00000000  |err vs true|=2.00000000  |err vs reachable|=2.00000000
+  K= 2  E0=-4.00000000  |err vs true|=0.00000000  |err vs reachable|=0.00000000
+  K= 3  E0=-4.00000000  |err vs true|=0.00000000  |err vs reachable|=0.00000000
+  Converged (estimate stopped changing) -- stopping early.
+
+  Converged in 3 Krylov iterations  (E0=-4.00000000, which equals the reachable minimum -4.00000000).
+  NOTE: psi_0 is a dense random state, so it has overlap across all sectors.
+        The Krylov estimate should converge exactly to the true global ground state.
+  Results saved to results_classical.txt
+Finished NQ=3.
+------------------------------------------------------------
+Running for NQ=4...
+CLASSICAL exact KQD   nQ=4  krylov_dim=50  JX=1 JY=1 JZ=1
+  Initial state = Dense Random State    (dim = 16)
+  spectral norm = 6.46410162   dt = 0.48600607
+  True ground-state energy E0 (full spectrum) = -6.46410162
+  Lowest energy reachable from this psi_0    = -6.46410162   (Krylov converges here)
+
+  Krylov convergence (E0 estimate vs full-spectrum ground state):
+  K= 1  E0=-3.00000000  |err vs true|=3.46410162  |err vs reachable|=3.46410162
+  K= 2  E0=-4.66516289  |err vs true|=1.79893873  |err vs reachable|=1.79893873
+  K= 3  E0=-5.79461371  |err vs true|=0.66948790  |err vs reachable|=0.66948790
+  K= 4  E0=-6.42745980  |err vs true|=0.03664182  |err vs reachable|=0.03664182
+  K= 5  E0=-6.46410162  |err vs true|=0.00000000  |err vs reachable|=0.00000000
+  K= 6  E0=-6.46410162  |err vs true|=0.00000000  |err vs reachable|=0.00000000
+  Converged (estimate stopped changing) -- stopping early.
+
+  Converged in 6 Krylov iterations  (E0=-6.46410162, which equals the reachable minimum -6.46410162).
+  NOTE: psi_0 is a dense random state, so it has overlap across all sectors.
+        The Krylov estimate should converge exactly to the true global ground state.
+  Results saved to results_classical.txt
+Finished NQ=4.
+------------------------------------------------------------
+Running for NQ=5...
+CLASSICAL exact KQD   nQ=5  krylov_dim=50  JX=1 JY=1 JZ=1
+  Initial state = Dense Random State    (dim = 32)
+  spectral norm = 7.71154501   dt = 0.40738823
+  True ground-state energy E0 (full spectrum) = -7.71154501
+  Lowest energy reachable from this psi_0    = -7.71154501   (Krylov converges here)
+
+  Krylov convergence (E0 estimate vs full-spectrum ground state):
+  K= 1  E0=-4.00000000  |err vs true|=3.71154501  |err vs reachable|=3.71154501
+  K= 2  E0=-5.69460500  |err vs true|=2.01694001  |err vs reachable|=2.01694001
+  K= 3  E0=-7.29050117  |err vs true|=0.42104385  |err vs reachable|=0.42104385
+  K= 4  E0=-7.69694487  |err vs true|=0.01460015  |err vs reachable|=0.01460015
+  K= 5  E0=-7.70938207  |err vs true|=0.00216294  |err vs reachable|=0.00216294
+  K= 6  E0=-7.71154501  |err vs true|=0.00000000  |err vs reachable|=0.00000000
+  K= 7  E0=-7.71154501  |err vs true|=0.00000000  |err vs reachable|=0.00000000
+  Converged (estimate stopped changing) -- stopping early.
+
+  Converged in 7 Krylov iterations  (E0=-7.71154501, which equals the reachable minimum -7.71154501).
+  NOTE: psi_0 is a dense random state, so it has overlap across all sectors.
+        The Krylov estimate should converge exactly to the true global ground state.
+  Results saved to results_classical.txt
+Finished NQ=5.
+------------------------------------------------------------
+Running for NQ=6...
+CLASSICAL exact KQD   nQ=6  krylov_dim=50  JX=1 JY=1 JZ=1
+  Initial state = Dense Random State    (dim = 64)
+  spectral norm = 9.97430854   dt = 0.31496847
+  True ground-state energy E0 (full spectrum) = -9.97430854
+  Lowest energy reachable from this psi_0    = -9.97430854   (Krylov converges here)
+
+  Krylov convergence (E0 estimate vs full-spectrum ground state):
+  K= 1  E0=-5.00000000  |err vs true|=4.97430854  |err vs reachable|=4.97430854
+  K= 2  E0=-7.28506736  |err vs true|=2.68924118  |err vs reachable|=2.68924118
+  K= 3  E0=-8.56649496  |err vs true|=1.40781357  |err vs reachable|=1.40781357
+  K= 4  E0=-8.90627677  |err vs true|=1.06803176  |err vs reachable|=1.06803176
+  K= 5  E0=-9.48941268  |err vs true|=0.48489586  |err vs reachable|=0.48489586
+  K= 6  E0=-9.80883245  |err vs true|=0.16547609  |err vs reachable|=0.16547609
+  K= 7  E0=-9.95622797  |err vs true|=0.01808056  |err vs reachable|=0.01808056
+  K= 8  E0=-9.97011496  |err vs true|=0.00419357  |err vs reachable|=0.00419357
+  K= 9  E0=-9.97367914  |err vs true|=0.00062940  |err vs reachable|=0.00062940
+  K=10  E0=-9.97428604  |err vs true|=0.00002249  |err vs reachable|=0.00002249
+  K=11  E0=-9.97430218  |err vs true|=0.00000635  |err vs reachable|=0.00000635
+  K=12  E0=-9.97430800  |err vs true|=0.00000053  |err vs reachable|=0.00000053
+  K=13  E0=-9.97430853  |err vs true|=0.00000000  |err vs reachable|=0.00000000
+  K=14  E0=-9.97430854  |err vs true|=0.00000000  |err vs reachable|=0.00000000
+  Converged (estimate stopped changing) -- stopping early.
+
+  Converged in 14 Krylov iterations  (E0=-9.97430854, which equals the reachable minimum -9.97430854).
+  NOTE: psi_0 is a dense random state, so it has overlap across all sectors.
+        The Krylov estimate should converge exactly to the true global ground state.
+  Results saved to results_classical.txt
+Finished NQ=6.
+------------------------------------------------------------
+Running for NQ=7...
+CLASSICAL exact KQD   nQ=7  krylov_dim=50  JX=1 JY=1 JZ=1
+  Initial state = Dense Random State    (dim = 128)
+  spectral norm = 11.34495872   dt = 0.27691530
+  True ground-state energy E0 (full spectrum) = -11.34495872
+  Lowest energy reachable from this psi_0    = -11.34495872   (Krylov converges here)
+
+  Krylov convergence (E0 estimate vs full-spectrum ground state):
+  K= 1  E0=-6.00000000  |err vs true|=5.34495872  |err vs reachable|=5.34495872
+  K= 2  E0=-8.60671105  |err vs true|=2.73824767  |err vs reachable|=2.73824767
+  K= 3  E0=-9.73888659  |err vs true|=1.60607213  |err vs reachable|=1.60607213
+  K= 4  E0=-10.69226202  |err vs true|=0.65269670  |err vs reachable|=0.65269670
+  K= 5  E0=-11.15323405  |err vs true|=0.19172468  |err vs reachable|=0.19172468
+  K= 6  E0=-11.31277962  |err vs true|=0.03217911  |err vs reachable|=0.03217911
+  K= 7  E0=-11.33946856  |err vs true|=0.00549016  |err vs reachable|=0.00549016
+  K= 8  E0=-11.34320314  |err vs true|=0.00175559  |err vs reachable|=0.00175559
+  K= 9  E0=-11.34439484  |err vs true|=0.00056388  |err vs reachable|=0.00056388
+  K=10  E0=-11.34484918  |err vs true|=0.00010955  |err vs reachable|=0.00010955
+  K=11  E0=-11.34494166  |err vs true|=0.00001706  |err vs reachable|=0.00001706
+  K=12  E0=-11.34495602  |err vs true|=0.00000270  |err vs reachable|=0.00000270
+  K=13  E0=-11.34495842  |err vs true|=0.00000031  |err vs reachable|=0.00000031
+  K=14  E0=-11.34495870  |err vs true|=0.00000002  |err vs reachable|=0.00000002
+  K=15  E0=-11.34495872  |err vs true|=0.00000000  |err vs reachable|=0.00000000
+  K=16  E0=-11.34495872  |err vs true|=0.00000000  |err vs reachable|=0.00000000
+  Converged (estimate stopped changing) -- stopping early.
+
+  Converged in 16 Krylov iterations  (E0=-11.34495872, which equals the reachable minimum -11.34495872).
+  NOTE: psi_0 is a dense random state, so it has overlap across all sectors.
+        The Krylov estimate should converge exactly to the true global ground state.
+  Results saved to results_classical.txt
+Finished NQ=7.
+------------------------------------------------------------
+Running for NQ=8...
+CLASSICAL exact KQD   nQ=8  krylov_dim=50  JX=1 JY=1 JZ=1
+  Initial state = Dense Random State    (dim = 256)
+  spectral norm = 13.49973039   dt = 0.23271521
+  True ground-state energy E0 (full spectrum) = -13.49973039
+  Lowest energy reachable from this psi_0    = -13.49973039   (Krylov converges here)
+
+  Krylov convergence (E0 estimate vs full-spectrum ground state):
+  K= 1  E0=-7.00000000  |err vs true|=6.49973039  |err vs reachable|=6.49973039
+  K= 2  E0=-10.02280946  |err vs true|=3.47692094  |err vs reachable|=3.47692094
+  K= 3  E0=-11.32385264  |err vs true|=2.17587776  |err vs reachable|=2.17587776
+  K= 4  E0=-12.30936751  |err vs true|=1.19036289  |err vs reachable|=1.19036289
+  K= 5  E0=-12.60429462  |err vs true|=0.89543578  |err vs reachable|=0.89543578
+  K= 6  E0=-12.78363619  |err vs true|=0.71609420  |err vs reachable|=0.71609420
+  K= 7  E0=-13.08266642  |err vs true|=0.41706398  |err vs reachable|=0.41706398
+  K= 8  E0=-13.33497919  |err vs true|=0.16475121  |err vs reachable|=0.16475121
+  K= 9  E0=-13.43968533  |err vs true|=0.06004506  |err vs reachable|=0.06004506
+  K=10  E0=-13.48088181  |err vs true|=0.01884858  |err vs reachable|=0.01884858
+  K=11  E0=-13.49519936  |err vs true|=0.00453104  |err vs reachable|=0.00453104
+  K=12  E0=-13.49824695  |err vs true|=0.00148345  |err vs reachable|=0.00148345
+  K=13  E0=-13.49931806  |err vs true|=0.00041233  |err vs reachable|=0.00041233
+  K=14  E0=-13.49967123  |err vs true|=0.00005916  |err vs reachable|=0.00005916
+  K=15  E0=-13.49971838  |err vs true|=0.00001202  |err vs reachable|=0.00001202
+  K=16  E0=-13.49972822  |err vs true|=0.00000217  |err vs reachable|=0.00000217
+  K=17  E0=-13.49972986  |err vs true|=0.00000054  |err vs reachable|=0.00000054
+  K=18  E0=-13.49973027  |err vs true|=0.00000012  |err vs reachable|=0.00000012
+  K=19  E0=-13.49973036  |err vs true|=0.00000004  |err vs reachable|=0.00000004
+  K=20  E0=-13.49973039  |err vs true|=0.00000001  |err vs reachable|=0.00000001
+  K=21  E0=-13.49973039  |err vs true|=0.00000000  |err vs reachable|=0.00000000
+  Converged (estimate stopped changing) -- stopping early.
+
+  Converged in 21 Krylov iterations  (E0=-13.49973039, which equals the reachable minimum -13.49973039).
+  NOTE: psi_0 is a dense random state, so it has overlap across all sectors.
+        The Krylov estimate should converge exactly to the true global ground state.
+  Results saved to results_classical.txt
+Finished NQ=8.
+------------------------------------------------------------
+
+Done. All results are saved in results_classical.txt.
